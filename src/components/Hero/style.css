@@ -1,0 +1,78 @@
+.container{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   /* background-color: aqua; */
+}
+
+.banner {
+   display: flex;
+   margin-top: 80px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.rows {
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.heros img {
+   width: 100%;
+}
+
+.col-2 {
+   flex-basis: 50%;
+   min-width: 300px;
+}
+
+.col-2 h1 {
+   font-size: 40px;
+}
+
+.col-2 h3 {
+   font-size: 35px;
+}
+
+span {
+   color: #25F616;
+}
+
+.col-2 p {
+   font-size: 20px;
+   color: #999;
+   margin: 40px 0;
+}
+
+.btn {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.btn button {
+   padding: 15px 30px;
+   margin-right: 15px;
+   outline: none;
+   border: 1px solid #670F3B;
+   border-radius: 10px;
+   color: #6C63FF;
+   cursor: pointer;
+   background: transparent;
+}
+
+.btn .primary-btn {
+   background: linear-gradient(#670F3B, #670F3B);
+   box-shadow: 0 2px 15px rgba(248, 38, 103, 0.26);
+   color: white;
+}
+
+.social-icons {
+   width: 250px;
+   text-align: center;
+   /* margin-left: 50px; */
+}
+
+.social-icons img {
+   height: 50px;
+   margin: 0 2px;
+}
